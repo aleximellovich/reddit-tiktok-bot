@@ -44,7 +44,7 @@ def get_content(subreddit, reddit):
             return content
 
 
-def get_audio(text):
+def create_audio(text):
     client = texttospeech.TextToSpeechClient()
     synthesis_input = texttospeech.SynthesisInput(text)
 
